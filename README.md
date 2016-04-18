@@ -1,4 +1,6 @@
 # 3CImagePicker
+  实现 相册图片多选功能    
+  
 支持 iOS 7.0 以上  
 1.导入头文件  
 #import "SCImageGridViewController.h"  
