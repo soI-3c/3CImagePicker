@@ -1,7 +1,7 @@
 # 3CImagePicker
 支持 iOS 7.0 以上  
 1.导入头文件  
-#import "SCImageGridViewController"  
+#import "SCImageGridViewController.h"  
 
 在你要访问相册的事件中, 添加  :   
   在这只会访问 "相机胶卷" 相册, 并不会访问其它自定义的相册  ..  
