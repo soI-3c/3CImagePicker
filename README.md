@@ -4,7 +4,9 @@
 #import "SCImageGridViewController"  
 
 在你要访问相册的事件中, 添加  :   
-  在这只会访问 "相机胶卷" 这个相, 并不会访问其它自定义的相册  
+  在这只会访问 "相机胶卷" 相册, 并不会访问其它自定义的相册  ..  
+  # MaxPickerConunt:  最多的选取张数  
+  # MaxSize 压缩图片大小的上限,  选择图片完成后, 都会进行图片压缩, 压缩大小为 <= 200 KB  
  SCImageGridViewController *imageGridController = [[SCImageGridViewController alloc] initMaxPickerConunt:9 withMaxSize:200];  
     imageGridController.accomplishTakePhoto = ^(NSMutableArray <UIImage*> *photos) {        // 选择完成后的回调  
         // todo  
